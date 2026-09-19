@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900">
+<defs>
+ <radialGradient id="glow"><stop offset="0" stop-color="#35A7FF" stop-opacity=".48"/><stop offset="1" stop-color="#35A7FF" stop-opacity="0"/></radialGradient>
+ <linearGradient id="shirt" x1="0" x2="1"><stop stop-color="#182A4A"/><stop offset="1" stop-color="#0B1428"/></linearGradient>
+</defs>
+<circle cx="450" cy="420" r="390" fill="url(#glow)"/>
+<circle cx="450" cy="420" r="265" fill="#0D1628" stroke="#24466F" stroke-width="2"/>
+<!-- decorative rings -->
+<circle cx="450" cy="420" r="300" fill="none" stroke="#35A7FF" stroke-opacity=".18" stroke-width="2"/>
+<circle cx="450" cy="420" r="335" fill="none" stroke="#62D8FF" stroke-opacity=".10" stroke-width="2"/>
+<!-- person -->
+<circle cx="450" cy="300" r="78" fill="#D8A27C"/>
+<path d="M374 293 Q450 205 526 293 Q515 235 450 220 Q385 235 374 293Z" fill="#171B27"/>
+<path d="M320 570 Q345 410 450 410 Q555 410 580 570Z" fill="url(#shirt)" stroke="#35A7FF" stroke-opacity=".35" stroke-width="3"/>
+<path d="M390 450 L450 525 L510 450" fill="none" stroke="#35A7FF" stroke-opacity=".45" stroke-width="5"/>
+<!-- laptop -->
+<rect x="240" y="555" width="420" height="235" rx="18" fill="#0A1020" stroke="#4C6D97" stroke-width="4"/>
+<rect x="265" y="580" width="370" height="180" rx="8" fill="#101D34"/>
+<path d="M300 620h155M300 650h230M300 680h190" stroke="#35A7FF" stroke-width="8" stroke-linecap="round" opacity=".85"/>
+<path d="M190 800h520l-45 28H235z" fill="#17233A" stroke="#4C6D97" stroke-width="3"/>
+<!-- floating code chips -->
+<g font-family="monospace" font-size="24" font-weight="700">
+ <rect x="120" y="190" width="150" height="52" rx="16" fill="#101D34" stroke="#35A7FF" stroke-opacity=".45"/>
+ <text x="145" y="224" fill="#62D8FF">&lt;/&gt;</text>
+ <rect x="625" y="160" width="150" height="52" rx="16" fill="#101D34" stroke="#35A7FF" stroke-opacity=".45"/>
+ <text x="650" y="194" fill="#62D8FF">{ UI }</text>
+ <rect x="690" y="500" width="130" height="52" rx="16" fill="#101D34" stroke="#35A7FF" stroke-opacity=".45"/>
+ <text x="716" y="534" fill="#62D8FF">CSS</text>
+</g>
+</svg>

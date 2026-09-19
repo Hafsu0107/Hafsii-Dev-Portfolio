@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220">
+<rect width="900" height="220" rx="36" fill="#080D1A"/>
+<text x="50" y="142" font-family="Inter, Arial, sans-serif" font-size="92" font-weight="800" fill="#F5F8FF">Hafsii</text>
+<text x="360" y="142" font-family="Inter, Arial, sans-serif" font-size="92" font-weight="800" fill="#35A7FF"> Dev</text>
+<circle cx="794" cy="108" r="10" fill="#35A7FF"/>
+<circle cx="820" cy="108" r="10" fill="#62D8FF"/>
+</svg>
