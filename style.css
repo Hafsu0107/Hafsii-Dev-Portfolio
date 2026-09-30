@@ -1409,6 +1409,7 @@ html {
 .projects-button {
      display: flex;
 
+
      justify-content: center;
 
      margin-top: 35px;
@@ -1432,7 +1433,7 @@ html {
 
      text-decoration: none;
 
-     font-size: 9px;
+     font-size: 12px;
 
      transition: 0.3s;
 }
